@@ -242,7 +242,7 @@ class AccountStock(Account):
 
     def background(self):
         self._update_price()
-        self._trailing_stop.apply()
+        # self._trailing_stop.apply()
 
     def _update_price(self):
         for d in self._balance:
