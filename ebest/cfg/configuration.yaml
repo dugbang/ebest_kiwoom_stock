@@ -1,0 +1,32 @@
+# main condition ==========================
+demo: 1
+debug: 1
+
+# event id ==========================
+event_id:
+  main: main
+  telegram: telegram
+  tcp_server: tcp_server
+
+# trailing stop 발생할 때 전송할 e_id
+ts_listener: [telegram, tcp_server]
+
+loop_sleep: 0.05
+
+telegram:
+  enable: 1
+  timeout: 0.1
+  cmd_delay: 5.0
+
+timer:
+  interval: 1.0       # 1.0 초에 counter += 1 증가
+  loop_sleep: 0.05    # timer loop sleep > sleep&process
+  account_reload: 60  # 60 * interval 마다 실행
+  store_save: 600     # 60 * 10 * interval 마다 실행
+
+tcp_server:
+  addr: localhost
+  port: 34512
+  limit_listen: 5
+  recv_size: 4096
+  timeout: 0.2

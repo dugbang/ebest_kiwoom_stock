@@ -1,0 +1,16 @@
+# "데모 계좌 유효기간 : 23.12.07 ~ 03.07",
+
+enable_trading: 1     # 계좌 활성화 여부
+a_no: "55502496201"   # 계좌번호
+e_id: "ds"            # 프로그램에서 사용한는 event id;
+a_type: "stock"       # stock: 주식계좌, fo: 선옵계좌
+
+# todo; 작업중입니다. enalbe: 0 으로 설정하세요.
+trailing_stop:
+  enable: 0
+  start: '09:20'
+  end: '15:20'
+  ref: "ref_ts.csv"
+  file: "trailing_stop_ds.csv"
+
+# ===================================================

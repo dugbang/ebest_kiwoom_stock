@@ -1,0 +1,41 @@
+# main condition ==========================
+demo: 1
+debug: 1
+
+# kiwoom ===========================================
+login_dialog: 1   # 키움에서 로그인창을 띄울지 여부를 결정
+
+screen:
+  start: 2030   # 1000 이상의 값을 갖는다.
+  max: 200      # 사용할 수 있는 최대 스크린 갯수
+  query: 20     # query 할당 스크린 갯수
+  price: 30     # real price 할당 스크린 갯수
+
+# event id ==========================
+event_id:
+  main: main
+  telegram: telegram
+  tcp_server: tcp_server
+
+# trailing stop 발생할 때 전송할 e_id
+ts_listener: [telegram, tcp_server]
+
+loop_sleep: 0.05
+
+telegram:
+  enable: 1
+  timeout: 0.1
+  cmd_delay: 5.0
+
+timer:
+  interval: 1.0       # 1.0 초에 counter += 1 증가
+  loop_sleep: 0.05    # timer loop sleep > sleep&process
+  account_reload: 60  # 60 * interval 마다 실행
+  store_save: 600     # 60 * 10 * interval 마다 실행
+
+tcp_server:
+  addr: localhost
+  port: 23456
+  limit_listen: 5
+  recv_size: 4096
+  timeout: 0.2

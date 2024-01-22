@@ -1,0 +1,36 @@
+MIT License
+
+Copyright (c) 2024 dugbang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+==========================================================================================
+
+이 소프트웨어와 관련된 문서 파일(이하 "소프트웨어")의 사본을 획득한 사람은
+누구나 소프트웨어를 별다른 제한 없이 무상으로 처리할 수 있는 권한을 부여받습니다.
+이 소프트웨어의 모든 사본 또는 상당 부분의 복제본을 사용할 때에는
+소프트웨어의 상단에 있는 저작권 표시, 이 허가 표시, 하단의 허가 표시를 유지하도록 하고,
+소프트웨어와 함께 제공된 문서 또는 기타 자료에 대한
+표시, 고지, 고지를 포함하여 이 허가 표시를 유지하도록 하여야 합니다.
+
+소프트웨어는 상품성, 특정 목적에의 적합성 및 비침해에 대한 보증을 포함하여
+묵시적이든 명시적이든 어떠한 종류의 보증 없이 "있는 그대로" 제공됩니다.
+소프트웨어의 저작자나 저작권자는 어떠한 경우에도
+소프트웨어나 사용과정에서 발생하는 사항과 관련하여 일어나는
+어떠한 청구, 기타 책임에 대해 계약상, 불법행위, 또는 기타 이유로 인한 책임을 지지 않습니다.
